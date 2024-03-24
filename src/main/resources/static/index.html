@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>헌옷 수거함 위치 찾기</title>
+</head>
+<body>
+
+<div>
+    <div>
+        <div id="title-container">
+            <div id="name">
+                <h3>헌옷 수거함 위치 찾기</h3>
+            </div>
+        </div>
+
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="장소를 입력하세요" onkeydown="handleKeyPress(event)">
+            <button id="search-button">검색</button>
+        </div>
+    </div>
+    <div id="border-container">
+        <div id="map-container"></div>
+    </div>
+</div>
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=uzcdhug6n6&submodules=geocoder"></script>
+<script src="functions.js"></script>
+
+</body>
+</html>

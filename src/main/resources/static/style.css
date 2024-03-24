@@ -1,0 +1,31 @@
+#search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+#search-input {
+    width: 300px; /* 검색 창의 너비를 조절 */
+    padding: 10px; /* 안쪽 여백 추가 */
+    font-size: 16px; /* 폰트 크기 설정 */
+    margin-bottom: 15px;
+}
+#search-button {
+    padding: 10px 20px; /* 버튼의 패딩 설정 */
+    font-size: 16px; /* 폰트 크기 설정 */
+}
+#map-container {
+    width: 100%;
+    height: 600px;
+}
+#title-container{
+    max-width: 120rem;
+    height: 7rem;
+    margin: 1.4rem auto;
+    display: flex;
+    align-items: center;
+}
+#border-container{
+    padding:50px
+}
+#name{
+    padding-left:50px;
+}
